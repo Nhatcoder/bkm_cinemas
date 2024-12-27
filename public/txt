@@ -1,0 +1,23 @@
+#Thanh toán momo
+9704000000000018
+NGUYEN VAN A
+03 / 07
+Mã OTP: OTP
+
+#Thanh toán zalopay
+4111111111111111
+NGUYEN VAN A
+01/25
+123
+
+Ngân hàng: NCB
+9704198526191432198
+NGUYEN VAN A
+07/15
+123456
+
+*
+!.gitignore
+
+
+!schemas/**

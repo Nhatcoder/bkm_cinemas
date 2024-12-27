@@ -1,0 +1,189 @@
+.mfp-container, .mfp-wrap {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.mfp-wrap {
+    -webkit-backface-visibility: hidden;
+    outline: none !important;
+    position: fixed;
+    z-index: 1043;
+    overflow: hidden auto;
+}
+
+.mfp-container {
+    box-sizing: border-box;
+    padding: 30px;
+    position: absolute;
+    text-align: center;
+}
+
+.mfp-container:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.mfp-content {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 100%;
+    opacity: 0;
+    position: relative;
+    text-align: left;
+    transform: translateY(-30px);
+    transition: transform .5s, opacity .3s;
+    vertical-align: middle;
+    z-index: 1045;
+}
+
+.mfp-ready .mfp-content {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.mfp-ajax-holder .mfp-content, .mfp-inline-holder .mfp-content {
+    cursor: auto;
+}
+
+.mfp-auto-cursor .mfp-content {
+    cursor: auto;
+}
+
+.lightbox-content {
+    background-color: #fff;
+    box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, .15);
+    margin: 0 auto;
+    max-width: 875px;
+    position: relative;
+}
+
+.lightbox-content {
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+    max-width: 800px;
+    padding: 30px 40px 25px 40px;
+}
+
+.is-xlarge {
+    font-size: 1.5em;
+}
+
+#gap-1650087948 {
+    padding-top: 10px;
+}
+
+.clear:after, .clearfix:after, .container:after, .row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.location-select-button.button {
+    text-transform: none;
+    font-weight: 700;
+    font-size: .99em;
+    padding: 2px 10px;
+    border: 1px solid #0000001a;
+    transition: transform .3s, border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    text-shadow: none;
+    letter-spacing: .03em;
+    line-height: 2.4em;
+    margin-right: 1em;
+    margin-top: 0;
+    max-width: 100%;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+}
+
+.location-select-button.button {
+    border-radius: 9px !important;
+}
+
+[data-icon-label]:after, .secondary.is-underline:hover, .secondary.is-outline:hover, .icon-label, .button.secondary:not(.is-outline), .button.alt:not(.is-outline), .badge-inner.on-sale, .button.checkout, .single_add_to_cart_button, .current .breadcrumb-step {
+    background-color: white !important;
+    color: #be4365;
+}
+
+#locationSelect a.location-select-button, .select-location-nav.nav li>a {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.mfp-bg {
+    background: #0b0b0b;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    transition: opacity .25s;
+    width: 100%;
+    z-index: 1042;
+}
+
+.mfp-bg.mfp-ready {
+    opacity: .6;
+}
+
+h1, h2, h3, h4, h5, h6, .heading-font, .banner h1, .banner h2 {
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, .heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a {
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+h1, h2, h3, h4, h5, h6, .heading-font {
+    color: #000000;
+}
+
+.mfp-preloader {
+    color: #ccc;
+    left: 8px;
+    margin-top: -.8em;
+    position: absolute;
+    right: 8px;
+    text-align: center;
+    top: 50%;
+    width: auto;
+    z-index: 1044;
+}
+
+.mfp-s-error .mfp-content, .mfp-s-ready .mfp-preloader {
+    display: none;
+}
+
+.mfp-wrap,
+.mfp-bg {
+    display: none;
+}
+
+.del-item-notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 10px;
+    border-radius: 50%;
+    background-color: #EA3B82;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.del-item-notification:hover {
+    background-color: #EA3B82;
+}

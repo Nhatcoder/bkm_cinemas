@@ -1,0 +1,40 @@
+.btn-login {
+    background: linear-gradient(45deg, #d528a0, #fb9b48) !important;
+    border: none !important;
+}
+
+.btn-login {
+    font-family: sans-serif;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.btn-login::before {
+    content: '';
+    position: absolute;
+    top: 49%;
+    left: -100%;
+    width: 200%;
+    height: 52px;
+    background: linear-gradient(95deg, rgb(227 89 89 / 0%) 0%, rgb(255 255 255 / 42%) 50%, rgb(0 0 0 / 5%) 100%);
+    transition: left 0.3s ease-in-out;
+    transform: translateY(-48%);
+}
+
+.btn-login:hover {
+    background-color: #0056b3; /* Màu nền đổi khi hover */
+}
+
+.btn-login:hover::before {
+    left: 100%;
+}

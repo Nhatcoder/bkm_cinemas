@@ -1,0 +1,56 @@
+.flex-container {
+    display: flex;
+    width: 100%;
+}
+
+#preview {
+    width: 100%;
+    height: 1000px;
+    background-color: #fff;
+}
+
+.liveCodeBox {
+    display: none;
+    position: relative;
+}
+
+.zoom-preview {
+    position: absolute;
+    opacity: 0;
+    bottom: 33px;
+    left: 13px;
+}
+
+.zoom-preview .btnZoom {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 3px;
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    box-shadow: -1px 1px 7px 1px;
+    color: #171717;
+}
+
+.liveCodeBox:hover .zoom-preview {
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}
+
+.loading-code {
+    display: none;
+    text-align: center !important;
+}
+
+.preview-close {
+    color: #dedeed;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.preview-close i {
+    font-size: 25px !important;
+}

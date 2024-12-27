@@ -1,0 +1,882 @@
+[
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 0,
+    "visible": 1,
+    "seat_number": "A01",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 1,
+    "visible": 1,
+    "seat_number": "A02",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 2,
+    "visible": 1,
+    "seat_number": "B04",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 3,
+    "visible": 1,
+    "seat_number": "A04",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 4,
+    "visible": 1,
+    "seat_number": "A05",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 5,
+    "visible": 1,
+    "seat_number": "A06",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 6,
+    "visible": 1,
+    "seat_number": "A07",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 7,
+    "visible": 1,
+    "seat_number": "A08",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 8,
+    "visible": 1,
+    "seat_number": "A09",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 9,
+    "visible": 1,
+    "seat_number": "A10",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 10,
+    "visible": 1,
+    "seat_number": "A11",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 11,
+    "visible": 1,
+    "seat_number": "B01",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 12,
+    "visible": 1,
+    "seat_number": "B02",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 13,
+    "visible": 1,
+    "seat_number": "B03",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 14,
+    "visible": 1,
+    "seat_number": "A03",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 15,
+    "visible": 1,
+    "seat_number": "B05",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 16,
+    "visible": 1,
+    "seat_number": "B06",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 17,
+    "visible": 1,
+    "seat_number": "B07",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 18,
+    "visible": 1,
+    "seat_number": "B08",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 19,
+    "visible": 1,
+    "seat_number": "B09",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 20,
+    "visible": 1,
+    "seat_number": "B10",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 21,
+    "visible": 1,
+    "seat_number": "B11",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 22,
+    "visible": 1,
+    "seat_number": "C01",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 23,
+    "visible": 1,
+    "seat_number": "C02",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 24,
+    "visible": 1,
+    "seat_number": "C03",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 25,
+    "visible": 1,
+    "seat_number": "C04",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 26,
+    "visible": 1,
+    "seat_number": "C05",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 27,
+    "visible": 1,
+    "seat_number": "C06",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 28,
+    "visible": 1,
+    "seat_number": "C07",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 29,
+    "visible": 1,
+    "seat_number": "C08",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 30,
+    "visible": 1,
+    "seat_number": "C09",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 31,
+    "visible": 1,
+    "seat_number": "C10",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 32,
+    "visible": 1,
+    "seat_number": "C11",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 33,
+    "visible": 1,
+    "seat_number": "D01",
+    "merged_seats": ["D02"]
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 34,
+    "visible": 1,
+    "seat_number": "D02",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 35,
+    "visible": 1,
+    "seat_number": "D03",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 36,
+    "visible": 1,
+    "seat_number": "D04",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 37,
+    "visible": 1,
+    "seat_number": "D05",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 38,
+    "visible": 1,
+    "seat_number": "D06",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 39,
+    "visible": 1,
+    "seat_number": "D07",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 40,
+    "visible": 1,
+    "seat_number": "D08",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 41,
+    "visible": 1,
+    "seat_number": "D09",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 42,
+    "visible": 1,
+    "seat_number": "D10",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 43,
+    "visible": 1,
+    "seat_number": "D11",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 44,
+    "visible": 1,
+    "seat_number": "E01",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 45,
+    "visible": 1,
+    "seat_number": "E02",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 46,
+    "visible": 1,
+    "seat_number": "E03",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 47,
+    "visible": 1,
+    "seat_number": "E04",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 48,
+    "visible": 1,
+    "seat_number": "E05",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 49,
+    "visible": 1,
+    "seat_number": "E06",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 50,
+    "visible": 1,
+    "seat_number": "E07",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 51,
+    "visible": 1,
+    "seat_number": "E08",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 52,
+    "visible": 1,
+    "seat_number": "E09",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 53,
+    "visible": 1,
+    "seat_number": "E10",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 54,
+    "visible": 1,
+    "seat_number": "E11",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 55,
+    "visible": 1,
+    "seat_number": "F01",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 56,
+    "visible": 1,
+    "seat_number": "F02",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 57,
+    "visible": 1,
+    "seat_number": "F03",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 58,
+    "visible": 1,
+    "seat_number": "F04",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 59,
+    "visible": 1,
+    "seat_number": "F05",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 60,
+    "visible": 1,
+    "seat_number": "F06",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 61,
+    "visible": 1,
+    "seat_number": "F07",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 62,
+    "visible": 1,
+    "seat_number": "F08",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 63,
+    "visible": 1,
+    "seat_number": "F09",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 64,
+    "visible": 1,
+    "seat_number": "F10",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 65,
+    "visible": 1,
+    "seat_number": "F11",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 66,
+    "visible": 1,
+    "seat_number": "G01",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 67,
+    "visible": true,
+    "seat_number": "G02",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 68,
+    "visible": 1,
+    "seat_number": "G03",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 69,
+    "visible": 1,
+    "seat_number": "G04",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 70,
+    "visible": 1,
+    "seat_number": "G05",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 71,
+    "visible": 1,
+    "seat_number": "G06",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 72,
+    "visible": 1,
+    "seat_number": "G07",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 73,
+    "visible": 1,
+    "seat_number": "G08",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 74,
+    "visible": 1,
+    "seat_number": "G09",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 75,
+    "visible": 1,
+    "seat_number": "G10",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 76,
+    "visible": 1,
+    "seat_number": "G11",
+    "merged_seats": []
+  },
+  {
+    "type": "vip-seat",
+    "slot": 2,
+    "order": 77,
+    "visible": 1,
+    "seat_number": "H01",
+    "merged_seats": ["H02"]
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 78,
+    "visible": false,
+    "seat_number": "H02",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 79,
+    "visible": 1,
+    "seat_number": "H03",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 80,
+    "visible": 1,
+    "seat_number": "H04",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 81,
+    "visible": 1,
+    "seat_number": "H05",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 82,
+    "visible": 1,
+    "seat_number": "H06",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 83,
+    "visible": 1,
+    "seat_number": "H07",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 84,
+    "visible": 1,
+    "seat_number": "H08",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 85,
+    "visible": 1,
+    "seat_number": "H09",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 86,
+    "visible": 1,
+    "seat_number": "H10",
+    "merged_seats": []
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 87,
+    "visible": 1,
+    "seat_number": "H11",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 88,
+    "visible": 1,
+    "seat_number": "I01",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 89,
+    "visible": 1,
+    "seat_number": "I02",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 90,
+    "visible": 1,
+    "seat_number": "I03",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 91,
+    "visible": 1,
+    "seat_number": "I04",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 92,
+    "visible": 1,
+    "seat_number": "I05",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 93,
+    "visible": 1,
+    "seat_number": "I06",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 94,
+    "visible": 1,
+    "seat_number": "I07",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 95,
+    "visible": 1,
+    "seat_number": "I08",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 96,
+    "visible": 1,
+    "seat_number": "I09",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 97,
+    "visible": 1,
+    "seat_number": "I10",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 98,
+    "visible": 1,
+    "seat_number": "I11",
+    "merged_seats": []
+  },
+  {
+    "type": "couple-seat",
+    "slot": 2,
+    "order": 99,
+    "visible": 1,
+    "seat_number": "J01",
+    "merged_seats": ["J02", "J03", "J04", "J02", "J02"]
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 100,
+    "visible": false,
+    "seat_number": "J02",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 101,
+    "visible": 1,
+    "seat_number": "J03",
+    "merged_seats": []
+  },
+  {
+    "type": "couple-seat",
+    "slot": 2,
+    "order": 102,
+    "visible": 1,
+    "seat_number": "J04",
+    "merged_seats": ["J05"]
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 103,
+    "visible": false,
+    "seat_number": "J05",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 104,
+    "visible": 1,
+    "seat_number": "J06",
+    "merged_seats": []
+  },
+  {
+    "type": "couple-seat",
+    "slot": 2,
+    "order": 105,
+    "visible": 1,
+    "seat_number": "J07",
+    "merged_seats": ["J08"]
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 106,
+    "visible": false,
+    "seat_number": "J08",
+    "merged_seats": []
+  },
+  {
+    "type": "empty-seat",
+    "slot": 1,
+    "order": 107,
+    "visible": 1,
+    "seat_number": "J09",
+    "merged_seats": []
+  },
+  {
+    "type": "couple-seat",
+    "slot": 2,
+    "order": 108,
+    "visible": 1,
+    "seat_number": "J10",
+    "merged_seats": ["J11"]
+  },
+  {
+    "type": "standard-seat",
+    "slot": 1,
+    "order": 109,
+    "visible": false,
+    "seat_number": "J11",
+    "merged_seats": []
+  }
+]

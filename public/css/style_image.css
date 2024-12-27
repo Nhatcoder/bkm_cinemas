@@ -1,0 +1,233 @@
+#imagePreview {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.display-4 {
+    font-size: calc(1.475rem + 2.7vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+#imagePreview>img {
+    width: 114.9px;
+    height: 115px;
+    object-fit: cover;
+    border: 2px solid orange;
+    margin: 13px 27px 13px 0;
+}
+
+
+.fa-upload {
+    font-size: 55px;
+    color: #606166;
+}
+
+.box_img {
+    position: relative;
+}
+
+.box_img>img {
+    width: 114.9px;
+    height: 115px;
+    object-fit: cover;
+    border: 2px solid orange;
+    margin: 13px 27px 13px 0;
+}
+
+.btnDelete_image {
+    position: absolute;
+    top: 2px;
+    right: 15px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.btnDelete_image:hover {
+    background-color: #fff;
+    color: #000;
+    transition: all 0.2s;
+    font-weight: 600;
+}
+
+.variantColor {
+    position: relative;
+}
+
+.btnRemoveImage {
+    position: absolute;
+    right: 15px;
+    top: -12px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px !important;
+}
+
+.variant-box {
+    border: 1px solid #494949;
+    padding: 20px 0 0 18px;
+    border-radius: 5px;
+    background-color: #272727;
+    margin-bottom: 10px;
+}
+
+.file-input-wrapper {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.file-input-wrapper .relatedPhotos {
+    position: absolute;
+    width: 87px;
+    height: 88px;
+    top: 6px;
+    left: 6px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.file-input-wrapper .custom-button {
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid #565656;
+    cursor: pointer;
+}
+
+.file-input-wrapper img {
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: none;
+}
+
+.file-input-wrapper .remove-button {
+    position: absolute;
+    top: -7px;
+    right: 3px;
+    font-size: 17px;
+    color: #565656;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btnRemoveEditAjax {
+    position: absolute;
+    top: -7px;
+    right: 3px;
+    font-size: 17px;
+    color: #565656;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.avatar-preview {
+    position: relative;
+}
+
+.removeImage {
+    position: absolute;
+    top: 0;
+}
+
+
+.removeImage {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 17px;
+    color: #565656;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.removeImage i {
+    font-size: 14px;
+}
+
+.box-delete-item {
+    position: relative;
+}
+
+.btn-delete-multiple_item {
+    /* position: absolute;
+    left: 30px;
+    bottom: -7px; */
+    padding: 7px;
+    margin-left: 20px;
+}
+
+.cart-google_preview {
+    margin-bottom: 0 !important;
+    padding: 0px 20px 20px 20px;
+}
+
+.google-preview {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.google__title {
+    margin-bottom: 0 !important;
+}
+
+.resultTitle_vi {
+    color: #1a0dab;
+    font-size: 18px !important;
+    min-height: 21px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.resultUrl_vi {
+    color: #006621;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.google__description {
+    font-size: 16px;
+    color: #212529 !important
+}
+
+.error {
+    color: red;
+}
+
+.good {
+    color: green;
+}
+
+.warning {
+    color: orange;
+}

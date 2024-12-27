@@ -1,0 +1,15 @@
+.del-actor {
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+.role-box {
+    margin: 10px 0;
+}
+
+.role-box label {
+    color: green;
+    margin-bottom: 0.3rem !important;
+}
+

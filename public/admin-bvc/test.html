@@ -1,0 +1,31 @@
+<select id="automatic-selection" class="language_selected" style="width:100%;">
+    <option value="" selected>-- Chọn ngôn ngữ --</option>
+    <option value="vi">Tiếng Việt</option>
+    <option value="en">Tiếng Anh</option>
+    <!-- Các tùy chọn khác -->
+</select>
+
+<input type="text" id="language_name" value="">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var selectElement = document.querySelector('.language_selected');
+
+        // Khởi tạo Select2 trên phần tử select
+        $(selectElement).select2();
+
+        // Sử dụng sự kiện change.select2 thay vì change
+        $(selectElement).on('change.select2', function() {
+            console.log('Change event triggered');
+
+            var selectedOption = this.options[this.selectedIndex];
+            var languageName = selectedOption.text;
+
+            console.log('Selected language name:', languageName);
+            document.getElementById('language_name').value = languageName;
+        });
+    });
+</script>

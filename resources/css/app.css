@@ -1,0 +1,10 @@
+
+@import "./seats.css";
+@import "./style.css";
+
+
+/* @tailwind base; */
+@tailwind components;
+
+@tailwind utilities;
+

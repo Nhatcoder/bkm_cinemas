@@ -1,0 +1,114 @@
+.tippy-box[data-theme~='tomato'] {
+  background-color: tomato;
+  color: yellow;
+}
+
+.tippy-box[data-theme~='mint'] {
+  background-color: #98FF98;
+  color: #006400;
+}
+
+.tippy-box[data-theme~='berry'] {
+  background-color: #8E4585;
+  color: #FFB7C5;
+}
+
+.tippy-box[data-theme~='sky'] {
+  background-color: #87CEEB;
+  color: #191970;
+}
+
+.tippy-box[data-theme~='sunset'] {
+  background-color: #FFA07A;
+  color: #8B4513;
+}
+
+.tippy-box[data-theme~='lemon'] {
+  background-color: #FFFACD;
+  color: #006400;
+}
+
+.tippy-box[data-theme~='grape'] {
+  background-color: #6F2DA8;
+  color: #E6E6FA;
+}
+
+.tippy-box[data-theme~='coffee'] {
+  background-color: #6F4E37;
+  color: #FAEBD7;
+}
+
+.tippy-box[data-theme~='bubblegum'] {
+  background-color: #FFB6C1;
+  color: #8B008B;
+}
+
+.tippy-box[data-theme~='emerald'] {
+  background-color: #50C878;
+  color: #F0FFF0;
+}
+
+.tippy-box[data-theme~='midnight'] {
+  background-color: #191970;
+  color: #E6E6FA;
+}
+
+.tippy-box[data-theme~='peach'] {
+  background-color: #FFDAB9;
+  color: #8B4513;
+}
+
+.tippy-box[data-theme~='lilac'] {
+  background-color: #C8A2C8;
+  color: #4B0082;
+}
+
+.tippy-box[data-theme~='ocean'] {
+  background-color: #1E90FF;
+  color: #F0F8FF;
+}
+
+.tippy-box[data-theme~='coral'] {
+  background-color: #FF7F50;
+  color: #00008B;
+}
+
+.tippy-box[data-theme~='forest'] {
+  background-color: #228B22;
+  color: #F0FFF0;
+}
+
+.tippy-box[data-theme~='silver'] {
+  background-color: #C0C0C0;
+  color: #191970;
+}
+
+.tippy-box[data-theme~='rose'] {
+  background-color: #FFE4E1;
+  color: #8B0000;
+}
+
+.tippy-box[data-theme~='autumn'] {
+  background-color: #D2691E;
+  color: #FFFAF0;
+}
+
+.tippy-box[data-theme~='arctic'] {
+  background-color: #F0F8FF;
+  color: #4682B4;
+}
+
+.tippy-box[data-theme~='rainbow'] {
+  font-weight: 600;
+  background: linear-gradient(124deg, 
+    #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, 
+    #1ddde8, #2b1de8, #dd00f3, #dd00f3, #ff2400);
+  background-size: 200% 100%;
+  color: white;
+  animation: rainbow 4s linear infinite;
+}
+
+@keyframes rainbow { 
+  0% { background-position: 0% 50% }
+  100% { background-position: 200% 50% }
+}

@@ -1,0 +1,16 @@
+#header .primary-menu .top-button .account .register {
+    /* background-image: url('movie/images/reg-bg094c.png'); */
+    background-size: 100% 100%;
+    float: right;
+    z-index: 3
+}
+
+#header .primary-menu .top-button .account .login {
+    /* background-image: url('movie/images/login-bgd8e6.'); */
+    background-size: 100% 100%;
+    float: right;
+    margin-left: -50px;
+    z-index: 4;
+}
+
+
