@@ -1,59 +1,59 @@
 # BKM Cinemas
 
-## Giới thiệu
+## Introduction
 
-BKM Cinemas là một ứng dụng web quản lý rạp chiếu phim, giúp người dùng có thể xem lịch chiếu, đặt vé và quản lý thông tin cá nhân. Dự án này được phát triển bằng các ngôn ngữ và công nghệ chính như JavaScript, HTML, CSS, Blade, PHP và SCSS.
+BKM Cinemas is a web application for managing cinemas, allowing users to view movie schedules, book tickets, and manage personal information. This project is developed using main languages and technologies such as JavaScript, HTML, CSS, Blade, PHP, and SCSS.
 
-## Mục lục
+## Table of Contents
 
-- [Giới thiệu](#giới-thiệu)
-- [Cài đặt](#cài-đặt)
-- [Cách sử dụng](#cách-sử-dụng)
-- [Cấu trúc thư mục](#cấu-trúc-thư-mục)
-- [Đóng góp](#đóng-góp)
-- [Giấy phép](#giấy-phép)
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Directory Structure](#directory-structure)
+- [Contribution](#contribution)
+- [License](#license)
 
-## Cài đặt
+## Installation
 
-### Yêu cầu
+### Requirements
 
-- Node.js và npm
+- Node.js and npm
 - Composer
-- Một máy chủ web như Apache hoặc Nginx
+- A web server like Apache or Nginx
 
-### Hướng dẫn cài đặt
+### Installation Guide
 
-1. Clone repository về máy của bạn:
+1. Clone the repository to your machine:
 
     ```sh
     git clone https://github.com/Nhatcoder/bkm_cinemas.git
     ```
 
-2. Cài đặt các dependencies cho backend:
+2. Install backend dependencies:
 
     ```sh
     composer install
     ```
 
-3. Cài đặt các dependencies cho frontend:
+3. Install frontend dependencies:
 
     ```sh
     npm install
     ```
 
-4. Tạo file `.env` từ file mẫu `.env.example` và cập nhật các thông tin cấu hình cần thiết:
+4. Create the `.env` file from the example file `.env.example` and update the necessary configuration information:
 
     ```sh
     cp .env.example .env
     ```
 
-5. Chạy các migration và seed dữ liệu:
+5. Run migrations and seed data:
 
     ```sh
     php artisan migrate --seed
     ```
 
-6. Khởi động server:
+6. Start the server:
 
     ```sh
     php artisan serve
@@ -61,26 +61,26 @@ BKM Cinemas là một ứng dụng web quản lý rạp chiếu phim, giúp ngư
     php artisan queue:work --sleep=0
     ```
 
-## Cách sử dụng
+## Usage
 
-Sau khi cài đặt thành công, bạn có thể truy cập ứng dụng web tại địa chỉ `http://localhost:8000`.
+After successful installation, you can access the web application at `http://localhost:8000`.
 
-- Đăng ký/Đăng nhập tài khoản
-- Xem lịch chiếu phim
-- Đặt vé trực tuyến
-- Quản lý thông tin cá nhân
+- Register/Login account
+- View movie schedules
+- Book tickets online
+- Manage personal information
 
-## Cấu trúc thư mục
+## Directory Structure
 
 ```plaintext
 bkm_cinemas/
-├── app/                # Thư mục chứa các file PHP của backend
-├── public/             # Thư mục chứa các file tĩnh như hình ảnh, CSS, JavaScript
-├── resources/          # Thư mục chứa các template Blade và file nguồn của frontend
-├── routes/             # Thư mục chứa các file định nghĩa route
-├── storage/            # Thư mục chứa các file cache, logs
-├── tests/              # Thư mục chứa các file test
-├── .env.example        # File mẫu cấu hình môi trường
-├── composer.json       # File cấu hình cho Composer
-├── package.json        # File cấu hình cho npm
-└── README.md           # File này
+├── app/                # Directory containing backend PHP files
+├── public/             # Directory containing static files like images, CSS, JavaScript
+├── resources/          # Directory containing Blade templates and frontend source files
+├── routes/             # Directory containing route definition files
+├── storage/            # Directory containing cache and logs files
+├── tests/              # Directory containing test files
+├── .env.example        # Example environment configuration file
+├── composer.json       # Composer configuration file
+├── package.json        # npm configuration file
+└── README.md           # This file
